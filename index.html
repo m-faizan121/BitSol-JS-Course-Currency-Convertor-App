@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Money</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="title">
+            <h1>Exchange Money</h1>
+        </div>
+        <div style="padding: 2%; margin-left: 10%;">
+            <button id="allCurrencies">All Currencies</button>
+        </div>
+        <div class="currenciesData">
+            <li>aaa</li>
+        </div>
+    </div>
+
+
+    <div class="form__container">
+        <form class="form1">
+            <label>From: </label>
+            <select class="input1" id="fromCountry">
+                <option value="PKR">PAKISTAN</option>
+                <option value="USD">USA</option>
+                <option value="AED">UAE</option>
+                <option value="GBP">UK</option>
+                <option value="SAR">SAUDI ARABIA</option>
+            </select>
+            &ensp;&ensp;&ensp; <label>To: </label>
+            <select class="input1" id="toCountry">
+                <option value="PKR">PAKISTAN</option>
+                <option value="USD">USA</option>
+                <option value="AED">UAE</option>
+                <option value="GBP">UK</option>
+                <option value="SAR">SAUDI ARABIA</option>
+            </select> <br>
+        </form>
+
+        <div class="form1" id="box">
+            <label>Amount: </label>
+            <input class="input1" id="amount" style="margin-left:1%;" type="number" placeholder="Enter Amount in Rupees">
+                <div style="padding-top: 1.5%;">    
+                    <button id="btn">
+                        Convert
+                    </button>
+                </div>
+        </div>
+
+      
+
+        
+    </div>
+    
+    <div class="form__container2">
+        <input class="input1 result">
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

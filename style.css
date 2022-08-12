@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 12%;
+}
+
+.header {
+    display: flex;
+    width: auto;
+    padding: 3%;
+}
+
+.title {
+    padding-top: 2%;
+    color: rgb(29, 71, 27);
+}
+
+img {
+    width: 100%;
+}
+
+.form__container {
+    height: auto;
+    width: 45%;
+    background-color: rgb(43, 82, 22);
+    opacity: 0.8;
+    margin: 2%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    padding-bottom: 1%;
+}
+
+.form__container2 {
+    height: auto;
+    width: 30%;
+    background-color: rgb(43, 82, 22);
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 12%;
+    padding: 1%;
+    padding-bottom: 1.5%;
+    display: none;
+}
+
+.form1 {
+    display: flex;
+    padding-top: 3%;
+    padding: 3%;
+}
+
+.input1 {
+    border-radius: 8px;
+    width: 40%;
+    opacity: 1;
+    padding: 2%;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: 17px;
+}
+
+label {
+    padding-top: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+option {
+    font-size: 17px;
+}
+
+option:hover {
+    background-color: rgb(185, 213, 127);
+}
+
+#btn {
+    width: 300%;
+    padding: 20%;
+    height: auto;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70%;
+    font-size: 13px;
+}
+
+
+#btn :hover {
+    background-color: rgb(141, 167, 111);
+    color: white;
+}
+
+#box {
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    #btn {
+        width: 200%;
+        transition-duration: 0.5s;
+    }
+  }
+
+.result {
+    width: 80%;
+    margin-left: 1%;
+    font-weight: bold;
+    color: red;
+}
+
+#allCurrencies {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(221, 247, 72);
+    font-weight: bold;
+    color: rgb(4, 43, 13);
+    position: fixed;
+    cursor: pointer;
+}
+
+#allCurrencies:hover {
+    background-color: rgb(43, 82, 22);
+    opacity: 0.8;
+    color: white;
+}
+
+.currenciesData {
+    width: 30%;
+    padding: 2%;
+    background-color: rgb(43, 82, 22);
+    margin-left: 60%;
+    overflow: scroll;
+    opacity: 0.9;
+    height: 250px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+li {
+    color: rgb(238, 255, 0);
+    font-size: 20px;
+}
